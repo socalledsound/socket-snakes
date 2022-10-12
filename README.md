@@ -20,10 +20,10 @@ oh, and also a vector library on the server side, since I can't use p5 there.
 --https://github.com/basics/vector
 
 STILL TO DO:
-    deploy
-    add different rooms/sessions
-    implement dying
-    at least one more type of food
-    choose color screen
-    more detail for the game
-        chat?
+    --deploy
+    --add different rooms/sessions
+    --implement dying
+    --at least one more type of food
+    --choose color screen
+    --more detail for the game
+    --chat?
