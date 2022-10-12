@@ -19,7 +19,9 @@ libraries used:
 oh, and also a vector library on the server side, since I can't use p5 there.
 --https://github.com/basics/vector
 
-STILL TO DO:
+
+
+    STILL TO DO:
     --deploy
     --add different rooms/sessions
     --implement dying
