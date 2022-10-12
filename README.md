@@ -21,6 +21,7 @@ oh, and also a vector library on the server side, since I can't use p5 there.
 
 STILL TO DO:
 deploy
+add different rooms/sessions
 implement dying
 at least one more type of food
 choose color screen
