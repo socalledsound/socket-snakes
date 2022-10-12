@@ -114,7 +114,7 @@ function updateGame(client, sessions, masterSessionId){
         })
         const serializedPlayers = playerArr.map(player => player.serialize())
         const gameUpdate = {players: serializedPlayers, foods: session.game.foods}
-        console.log(gameUpdate)
+       //console.log(gameUpdate)
         client.broadcast({type: 'state-update', payload: gameUpdate})
       }else{
         // const msg = {type: 'game-over'}

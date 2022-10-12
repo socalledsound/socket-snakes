@@ -61,7 +61,7 @@ class Player {
     }
 
     moveToMouse({mX, mY, scrollX, scrollY}){
-        console.log(mX, mY, scrollX, scrollY)
+        //console.log(mX, mY, scrollX, scrollY)
         let mouse = vector(mX, mY)
         let scroll = vector(scrollX, scrollY)
         let mousePos = vector(() => mouse + scroll)
@@ -103,7 +103,7 @@ class Player {
         }else{
             if(!this.alreadyDead){
                 // send game over message
-                console.log('snake died')
+                //console.log('snake died')
                 this.alreadyDead = true
             }
            
