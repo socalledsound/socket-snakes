@@ -62,6 +62,7 @@ function mousePressed(){
         //mouse.add(scroll)
         //socket.emit('mouse-update', {mX: mouse.x, mY: mouse.y})
         //console.log(scroll.x)
+        console.log(mouseX, mouseY)
         socket.emit('mouse-update', {mX: mouseX, mY: mouseY, scrollX: scroll.x, scrollY: scroll.y})
     }
     

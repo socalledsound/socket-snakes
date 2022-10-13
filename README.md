@@ -1,5 +1,8 @@
 # socket snakes
 
+https://socket-snakes.herokuapp.com/
+
+
 -- for UCB art 173 Fall 2022
 
 socket.io based snake game similar slither.io, etc.
@@ -22,7 +25,7 @@ oh, and also a vector library on the server side, since I can't use p5 there.
 
 
     STILL TO DO:
-    --deploy
+    -- fix deploy
     --add different rooms/sessions
     --implement dying
     --at least one more type of food
